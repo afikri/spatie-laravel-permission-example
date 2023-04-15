@@ -34,7 +34,7 @@ To implement role permission,
 -   Add route
     `Route::resource('/users', App\Http\Controllers\UserController::class);`
     `Route::resource('/roles', App\Http\Controllers\RoleController::class);`
--   In nav, Add something like
+-   In navigation bar, add something like
 
 ```html
 <li class="nav-item dropdown">
@@ -67,5 +67,4 @@ To implement role permission,
     </div>
 </li>
 ``` 
-- Complete controller
-
+- Done
