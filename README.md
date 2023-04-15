@@ -5,7 +5,7 @@ To install ui for creating auth, do as follow:
 -   Generate basic scaffolding and login and registration for bootstrap <br/>
     `php artisan ui bootstrap --auth`
 -   Run this command to install node dependency and compile CSS and js files:
-    `npm install && npm run dev`
+    `npm install && npm run dev` <br/>
 🛎️ To avoid running npm run dev every time, `npm run build` is used 
 To install spatie's laravel-permission
 
