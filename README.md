@@ -36,7 +36,7 @@ To implement role permission,
     `Route::resource('/roles', App\Http\Controllers\RoleController::class);`
 -   In nav, Add something like
 
-````html
+```html
 <li class="nav-item dropdown">
     <a
         id="navbarDropdown"
