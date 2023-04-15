@@ -1,11 +1,12 @@
 ## Step to reproduce
-To install ui for auth, do as follow:
+For simplicity's sake, laravel/ui interface is used 
+To install ui for creating auth, do as follow:
 -   Type on terminal `composer require laravel/ui`
 -   Generate basic scaffolding and login and registration for bootstrap <br/>
     `php artisan ui bootstrap --auth`
 -   Run this command to install node dependency and compile CSS and js files:
     `npm install && npm run dev`
-    
+🛎️ To avoid running npm run dev every time, `npm run build` is used 
 To install spatie's laravel-permission
 
 -   Run the command `composer require spatie/laravel-permission`
