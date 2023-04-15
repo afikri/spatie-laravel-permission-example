@@ -66,5 +66,6 @@ To implement role permission,
         @endcan
     </div>
 </li>
-``` - Complete controller
-````
+``` 
+- Complete controller
+
